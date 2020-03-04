@@ -21,7 +21,10 @@
             this.age = age;
             this.personalityScore = pers;
         }
-        public string displayInfo()
+
+        //The following method demonstrates Overwriting
+        //(VS was flaging this method and requested that I write the 'new' keyword)
+        public new string displayInfo()
         {
             return "Name: " + name + "\nBreed: " + breed + "\nColor: " + color + "\nAge: " + age + "\nPersonality Score: " + personalityScore;
         }
