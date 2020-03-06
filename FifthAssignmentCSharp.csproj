@@ -46,7 +46,9 @@
     <Compile Include="AnimalClasses\Animal.cs" />
     <Compile Include="AnimalClasses\Cat.cs" />
     <Compile Include="AnimalClasses\Dog.cs" />
-    <Compile Include="HouseClasses\House.cs" />
+    <Compile Include="HousingClasses\Apartment.cs" />
+    <Compile Include="HousingClasses\House.cs" />
+    <Compile Include="HousingClasses\Housing.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
