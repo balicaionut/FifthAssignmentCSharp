@@ -9,7 +9,7 @@
             trained = false;
         }
 
-        public Dog(string type, string name, string breed, string color, int age, bool trained)
+        public Dog(string type, string name, string breed, string color, int age, bool trained) : base(type, name, breed, color, age)
         {
             this.trained = trained;
         }

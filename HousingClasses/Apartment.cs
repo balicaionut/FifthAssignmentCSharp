@@ -4,12 +4,12 @@
     {
         public int floor { get; set; }
         public int totalBuildingFloors { get; set; }
-        public Apartment()
+        public Apartment() : base()
         {
             floor = 0;
             totalBuildingFloors = 0;
         }
-        public Apartment(string type, int area, double price, int floor, int totalFloors)
+        public Apartment(string type, int area, double price, int floor, int totalFloors) : base(type, area, price)
         {
             this.floor = floor;
             this.totalBuildingFloors = totalFloors;
