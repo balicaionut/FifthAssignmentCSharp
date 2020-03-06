@@ -6,6 +6,7 @@
 
         public Cat()
         {
+            typeAnimal = "";
             name = "";
             breed = "";
             color = "";
@@ -13,8 +14,9 @@
             personalityScore = 0.0;
         }
 
-        public Cat(string name, string breed, string color, int age, double pers)
+        public Cat(string type, string name, string breed, string color, int age, double pers)
         {
+            this.typeAnimal = type;
             this.name = name;
             this.breed = breed;
             this.color = color;
@@ -26,7 +28,7 @@
         //(VS was flaging this method and requested that I write the 'new' keyword)
         public new string displayInfo()
         {
-            return "Name: " + name + "\nBreed: " + breed + "\nColor: " + color + "\nAge: " + age + "\nPersonality Score: " + personalityScore;
+            return "Type of animal: " + typeAnimal + "\nName: " + name + "\nBreed: " + breed + "\nColor: " + color + "\nAge: " + age + "\nPersonality Score: " + personalityScore;
         }
     }
 }
