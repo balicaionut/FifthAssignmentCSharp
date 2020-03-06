@@ -6,17 +6,11 @@
         public int totalBuildingFloors { get; set; }
         public Apartment()
         {
-            typeHousing = "";
-            totalFloorArea = 0;
-            price = 0.0;
             floor = 0;
             totalBuildingFloors = 0;
         }
         public Apartment(string type, int area, double price, int floor, int totalFloors)
         {
-            this.typeHousing = type;
-            this.totalFloorArea = area;
-            this.price = price;
             this.floor = floor;
             this.totalBuildingFloors = totalFloors;
         }

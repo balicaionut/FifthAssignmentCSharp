@@ -6,17 +6,11 @@
         public int totalYardArea { get; set; }
         public House()
         {
-            typeHousing = "";
-            totalFloorArea = 0;
-            price = 0.0;
             noFloors = 0;
             totalYardArea = 0;
         }
         public House(string type, int inArea, double price, int floors, int outArea)
         {
-            this.typeHousing = type;
-            this.totalFloorArea = inArea;
-            this.price = price;
             this.noFloors = floors;
             this.totalYardArea = outArea;
         }

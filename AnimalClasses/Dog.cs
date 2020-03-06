@@ -6,21 +6,11 @@
 
         public Dog()
         {
-            typeAnimal = "";
-            name = "";
-            breed = "";
-            color = "";
-            age = 0;
             trained = false;
         }
 
         public Dog(string type, string name, string breed, string color, int age, bool trained)
         {
-            this.typeAnimal = type;
-            this.name = name;
-            this.breed = breed;
-            this.color = color;
-            this.age = age;
             this.trained = trained;
         }
 

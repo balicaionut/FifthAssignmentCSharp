@@ -6,21 +6,11 @@
 
         public Cat()
         {
-            typeAnimal = "";
-            name = "";
-            breed = "";
-            color = "";
-            age = 0;
             personalityScore = 0.0;
         }
 
         public Cat(string type, string name, string breed, string color, int age, double pers)
         {
-            this.typeAnimal = type;
-            this.name = name;
-            this.breed = breed;
-            this.color = color;
-            this.age = age;
             this.personalityScore = pers;
         }
 
